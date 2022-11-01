@@ -1,0 +1,289 @@
+/* IN CONTENT */
+.vnx-header-title-in-content{
+    font-weight: bold;
+    font-size: 30px;
+    left: 8%;
+    position: relative;
+    font-family: 'Font Awesome 5 Free';
+}
+.vnx-toc-head-list-in-content{
+    display: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.vnx-toc-header-in-content{
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+
+.vnx-toc-header-in-content::before {
+    content: "\f063" ;
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    right: 16px;
+    top: 12px;
+}
+
+.vnx-toc-header-in-content.vnx-active::before{
+ content: "\f061";
+}
+.vnx-toc-box-in-content{
+    background: #f3f3f3;
+    border: 2px solid ;
+    border-radius: 8px;
+    width: 100%;
+ }
+
+ .vnx-toc-box-in-content ul > li{
+    margin-bottom: 0 !important;
+}
+
+.vnx-toc-box-in-content a {
+    font-size: 14.4px !important;
+}
+
+.vnx-toc-box-in-content a:hover{
+    text-decoration:underline;
+}
+
+a.vnx-toc-sub-h2{
+    font-weight: bold !important; 
+}
+
+/*__________________DISPLAY CSS____________________*/
+
+.vnx-middle-left{
+    top: 50%;
+    margin: auto 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.vnx-middle-right{
+    top: 50%;
+    margin: auto 0;
+    bottom: 0;
+    position: fixed;
+}
+
+/*Button Middle Left */
+.btn-display-middle-left {
+    background: #f7f7f7;
+    font-family: 'Font Awesome 5 Free';
+}
+
+/*Button Middle Right */
+.btn-display-middle-right{
+    background: #f7f7f7;
+    top: 0;
+    margin: auto 0;
+    bottom: 0;
+    position: fixed;
+    font-family: 'Font Awesome 5 Free';
+}
+
+/* Box toc out content */
+.vnx-toc-box-out-content{
+    background: #f3f3f3;
+    border: 2px solid;
+    border-radius: 8px;
+    opacity: 1;
+    top: 100px;
+    position: fixed;
+    display: none;
+    transition: 2s;
+ }
+.vnx-header-title-out-content{
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    top: 14%;
+    width: 100%;
+    left: 44px;
+    padding-left: 4%;
+}
+.vnx-toc-header-out-content .fas{
+    font-size: 24px;
+}
+.vnx-toc-header-out-content{
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+
+}
+.vnx-toc-header-out-content::before {
+    content: "\f00d" ;
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    right: 14px;
+    top: 20%;
+    text-align: center;
+}
+
+ ul.vnx-toc-head-list-out-content{
+    margin: 0 !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+ .vnx-toc-box-out-content ul > li{
+    margin-bottom: 0 !important;
+}
+/*ACTIVE LINK*/
+
+
+
+
+
+.vnx-toc-box-out-content a {
+    font-size: 14.4px !important;
+}
+
+.vnx-toc-box-out-content a:hover{
+    text-decoration:underline;
+}
+/* ICON MENU-LIST NUM */
+.vnx-toc-header-in-content.fas{
+    font-size: 30px;
+}
+.vnx-toc-header-in-content.fa-bars:after{
+    content: "\f0c9";
+    position: absolute;
+    cursor: pointer;
+    right: auto;
+    text-align: center;
+    left: 2%;
+}
+.vnx-toc-header-out-content.fa-bars:after{
+    content: "\f0c9";
+    top: 10%;
+    margin: 0px;
+    position: absolute;
+    left: 14px;
+}
+.vnx-toc-header-in-content.fa-list-ol:after{
+    content: "\f0cb";
+    position: absolute;
+    cursor: pointer;
+    right: auto;
+    text-align: center;
+    left: 2%;
+}
+.vnx-toc-header-out-content.fa-list-ol:after{
+    content: "\f0cb";
+    top: 10px;
+    position: absolute;
+    left: 14px;
+}
+/*____________CLASS STYLES BODER - SHARP IN DISPLAY_____________*/
+.sharp-crile{
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+}
+.sharp-round{
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+}
+.sharp-square{
+    width: 50px;
+    height: 50px;
+}
+.boder-none{
+    border-style: none;
+}
+.boder-thin{
+    border-width: thin;
+}
+.boder-medium{
+    border: medium solid black;
+}
+.boder-bold{
+    border: 4px solid;
+}
+
+/*Effec*/
+
+.btn-zoom{
+    transition: transform .2s;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.zoomeffec{
+    transition: 1s;
+}
+.zoomeffec::before{
+    transform: scale(2);
+}
+
+
+/*LIST STYLE*/
+.listcircle{
+    list-style-type: circle !important;
+}
+.list_none{
+    list-style-type: none !important;
+}
+.list_number{
+    list-style-type: decimal !important;
+}
+.list_decimal{
+    list-style-type: decimal !important;
+}
+
+/*__________________MEDIA_________________ */
+@media screen and (max-width: 1800px){
+    .btn-display-middle-right{
+        background: #f7f7f7;
+        right: 0 !important;
+        left: auto !important;
+        top: 0;
+        margin: auto 0;
+        bottom: 0;
+        position: fixed;
+        font-family: 'Font Awesome 5 Free';
+    }
+    .vnx-middle-right .vnx-toc-box-out-content{
+        background: #f3f3f3;
+        border: 2px solid black;
+        border-radius: 8px;
+        position: fixed;
+        right: 0 !important;
+        left: auto !important;
+        overflow-x: auto;
+        margin: auto 0;
+        top: 15%;
+        display: none;
+     }
+     .vnx-middle-left .vnx-toc-box-out-content{
+        background: #f3f3f3;
+        border: 2px solid black;
+        border-radius: 8px;
+        position: fixed;
+        right: auto !important;
+        left: 0 !important;
+        opacity: 0.9;
+        margin: auto 0;
+        top: 10%;
+        display: none;
+     }
+     .btn-display-middle-left {
+        background: #f7f7f7;
+        top: 0 !important;
+        margin: auto 0;
+        bottom: 0;
+        right: auto !important;
+        left: 0;
+        position: fixed;
+        font-family: 'Font Awesome 5 Free';
+    }
+}

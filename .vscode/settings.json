@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 250,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedTypes": false,
+    "tailwindCSS.includeLanguages": {
+        "smarty": "html"
+    }
+}
