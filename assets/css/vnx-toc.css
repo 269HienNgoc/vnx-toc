@@ -286,4 +286,16 @@ a.vnx-toc-sub-h2{
         position: fixed;
         font-family: 'Font Awesome 5 Free';
     }
+
+    /* example */
+    .btn-display-middle-left {
+        background: #f7f7f7;
+        top: 0 !important;
+        margin: auto 0;
+        bottom: 0;
+        right: auto !important;
+        left: 0;
+        position: fixed;
+        font-family: 'Font Awesome 5 Free';
+    }
 }
