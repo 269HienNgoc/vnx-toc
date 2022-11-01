@@ -31,6 +31,7 @@ if (!class_exists('Vnx_Toc')) {
       add_action('admin_init', array($this, 'add_setting_page'));
       add_action('init', array($this, 'vnx_customs_dasboard_toc'));
       add_action('init', array($this, 'shortcode_toc'));
+      // add_action('init', array($this, 'shortcode_toc'));
     }
     /**
      * The code run when activate plugin
